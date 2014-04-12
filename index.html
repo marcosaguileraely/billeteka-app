@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Billeteka</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link href="css/ratchet.css" rel="stylesheet">
+        <link href="css/ratchet-theme-ios.css" rel="stylesheet">
+        <link href="css/safecity.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">  
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100|Roboto:400,300,500,100,700,900' rel='stylesheet' type='text/css'>
+
+    </head>
+    
+    <body>      
+        <!--        <script data-main="js/app" src="js/lib/require.js"></script> -->
+        <header id="header-bar" class="bar bar-nav">
+          <h1 class="title">Billeteka</h1>
+        </header>
+        <div id="home-logo" class="bar bar-standard bar-header-secondary">
+           <div id="logohome"></div>
+        </div>
+        <div id="home-search" class="bar bar-standard bar-header-secondary">
+           <input type="number" placeholder="Denominación">
+           <input type="number" placeholder="Año">
+           <select id="mesBox" class="form-control" style="width:100%;">
+                    <option> Seleccione un mes </option>
+                    <option> Enero </option>
+                    <option> Febrero </option>
+                    <option> Marzo </option>
+                    <option> Abril </option>
+                    <option> Mayo </option>
+                    <option> Junio </option>
+                    <option> Julio </option>
+                    <option> Agosto </option>
+                    <option> Septiembre </option> 
+                    <option> Octubre </option>
+                    <option> Noviembre </option>
+                    <option> Diciembre </option>
+          </select>
+          <button id="search-button" class="btn btn-positive btn-block">Buscar</button>
+        </div>
+
+        <nav id="footer-bar" class="bar bar-tab">
+          <a class="tab-item" href="#">
+            <span class="icon icon-person"></span>
+            <span class="tab-label">Perfil</span>
+          </a>
+          <a class="tab-item" href="#">
+            <span class="icon icon-star-filled"></span>
+            <span class="tab-label">Favoritos</span>
+          </a>
+          <a class="tab-item" href="#">
+            <span class="icon icon-search"></span>
+            <span class="tab-label">Buscar</span>
+          </a>
+        </nav>
+   
+    </body>
+</html>
