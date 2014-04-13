@@ -184,6 +184,7 @@ and (orientation : portrait) {
    padding:0px;
    text-align:center; 
    letter-spacing: -1px;
+   font-family: 'Roboto', sans-serif;
 }
 
 #progressLabel {
@@ -433,14 +434,175 @@ h1.title {
     background-color: transparent;
     height: 100%;
     width: 100%;
-    margin-top: 88px;
+    margin-top: 0px;
     padding: 20px;
 }
 
 #details {
     background-color: #fff;
-    height: 86%;
+    height: 99%;
     width: 100%;
     border-radius: 3px;
-    padding: 5px;
+    padding: 40px 1px;
+    opacity: 0.9;
+}
+
+#language-selector {
+    
+}
+
+.flag {
+/*    background-color: red;*/
+    height: 180px;
+    margin-top: 10px;
+    width: 90%;
+    list-style-type: none;
+}
+
+.title-language-selector {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+}
+
+#spanish {
+    background-image: url('/images/spanish.png');
+    height: 73%;
+    background-size: 200px 120px;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+    
+#english {
+    background-image: url('/images/english-.png');
+    height: 73%;
+    background-size: 200px 120px;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+    
+#french {
+    background-image: url('/images/french.png');
+    height: 73%;
+    background-size: 200px 120px;
+    background-repeat: no-repeat;
+    width: 100% !important;
+}
+    
+@media (min-width:320px) {
+    #spanish{
+        margin: 1% 15%;
+    }#english{
+        margin: 1% 15%;
+    }#french{
+        margin: 1% 15%;
+    }
+    .title-language-selector {
+        margin: 1% 15%;
+    }
+}
+@media (max-width:320px) {
+    #spanish{
+        margin: 1% 20%;
+    }
+    #english{
+        margin: 1% 20%;
+    }
+    #french{
+        margin: 1% 20%;
+    }
+    .title-language-selector {
+        margin: 1% 20%;
+    }
+}
+@media (min-width:481px) { 
+    #spanish{
+        margin: 1% 29%;
+    }
+    #english{
+        margin: 1% 29%;
+    }
+    #french{
+        margin: 1% 29%;
+    }
+    .title-language-selector {
+        margin: 1% 29%;
+    }
+}
+@media (min-width:641px) { 
+    #spanish{
+        margin: 1% 40.5%;
+    }
+    #english{
+        margin: 1% 40.5%;
+    }
+    #french{
+        margin: 1% 40.5%;
+    }
+    .title-language-selector {
+        margin: 1% 40.5%;
+    }
+}
+@media (min-width:841px) { 
+    #spanish{
+        margin: 1% 40.5%;
+    }
+    #english{
+        margin: 1% 40.5%;
+    }
+    #french{
+        margin: 1% 40.5%;
+    }
+    .title-language-selector {
+        margin: 1% 40.5%;
+    }
+}
+@media (min-width:961px) { 
+    #spanish{
+        margin: 1% 40.5%;
+    }
+    #english{
+        margin: 1% 40.5%;
+    }
+    #french{
+        margin: 1% 40.5%;
+    }
+    .title-language-selector {
+        margin: 1% 40.5%;
+    }
+}
+@media (min-width:1025px) { 
+    #spanish{
+        margin: 1% 40.5%;
+    }
+    #english{
+        margin: 1% 40.5%;
+    }
+    #french{
+        margin: 1% 40.5%;
+    }
+    .title-language-selector {
+        margin: 1% 40.5%;
+    }
+}
+@media (min-width:1281px) { 
+    #spanish{
+        margin: 1% 40.5%;
+    }
+    #english{
+        margin: 1% 40.5%;
+    }
+    #french{
+        margin: 1% 40.5%;
+    }
+    .title-language-selector {
+        margin: 1% 40.5%;
+    }
+}
+
+
+#help-icon {
+    color: #fff;
 }
